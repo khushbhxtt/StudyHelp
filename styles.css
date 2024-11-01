@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    color: rgb(218, 147, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202407/developing-effective-study-habits-a-guide-to-academic-success-034019989-16x9_0.jpg?VersionId=5voQGUAdXPwsi2jfm3GIlyPnZGu5E8tf");
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    background-color: navy;
+    border-radius: 20%;
+    border: purple 10px double;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    background-color: beige;
+    font-size: 20px;
+    color: blue;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  input[type="text"], input[type="time"], .btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: beige;
+  }
+  
+  .btn {
+    background-color: green;
+    color: #fff;
+    border: solid 2px red;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(5, 113, 140);
+  }
+  
+  .timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .timetable th, .timetable td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .timetable th {
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .timetable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .timetable tr:hover {
+    background-color: #ddd;
+  }
+
